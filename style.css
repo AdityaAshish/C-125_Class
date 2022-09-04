@@ -1,0 +1,34 @@
+.heading {
+    font-size: 23px;
+    width: 100%;
+    margin: 0px;
+    box-shadow: 5px 5px 5px grey;
+    background-color: teal;
+}
+
+.note {
+    font-size: 15px;
+    color: white;
+}
+
+.copy_right_footer {
+    position: fixed;
+    color:white;
+    bottom: 0;
+    width: 100%;
+    background-color:teal;
+    border-style: solid;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-color: seagreen;
+    text-align: center;
+    border-width: 2px;
+}
+
+canvas {
+    border-width: 5;
+    border-style: solid;
+    border-color:aquamarine;
+    box-shadow: 5px 5px 5px aquamarine;
+    border-radius: 20px;
+}
