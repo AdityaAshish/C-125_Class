@@ -14,12 +14,11 @@ function setup() {
 }
 
 function draw() {
-    document.getElementById("sqaure_side").innerHTML = "Width and Height of square will be" + difference +"pixels"
-
-    background('#63B7B7');
-    fill('#1ddcba');
-    stroke('#FFFFFF');
-    square(noseX, noseY, difference);
+    background('#969A97');
+     document.getElementById("square_side").innerHTML = "Width And Height of a Square will be = " + difference +"px";
+      fill('#F90093');
+       stroke('#F90093');
+     square(noseX, noseY, difference);
 }
 
 function modelLoaded() {
